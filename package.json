@@ -1,0 +1,39 @@
+{
+  "name": "fake-racing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple tilt-to-steer game inspired by RealRacing",
+  "homepage": "https://github.com/iamnapo/fake-racing#readme",
+  "bugs": {
+    "url": "https://github.com/iamnapo/fake-racing/issues"
+  },
+  "repository": "github:iamnapo/fake-racing",
+  "license": "MIT",
+  "author": {
+    "name": "Napoleon Oikonomou",
+    "email": "Napoleonoikon@gmail.com",
+    "url": "https://iamnapo.me"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "expo start --android",
+    "eject": "expo eject",
+    "ios": "expo start --ios",
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "^31.0.6",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-iamnapo": "^1.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.2"
+  }
+}
