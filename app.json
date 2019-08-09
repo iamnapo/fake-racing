@@ -3,10 +3,11 @@
     "name": "fake-racing",
     "slug": "fake-racing",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "version": "0.1.0",
     "orientation": "landscape",

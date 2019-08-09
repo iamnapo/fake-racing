@@ -1,37 +1,36 @@
 import React from 'react';
 import { StyleSheet, View, Image, Dimensions, StatusBar } from 'react-native';
-import { Accelerometer } from 'expo';
+import { Accelerometer } from 'expo-sensors';
+import { AppLoading } from 'expo';
+import { Asset } from 'expo-asset';
 
 const { width, height } = Dimensions.get('window');
 
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { tilt: 0 };
-    this._tilt = null;
-  }
+export default () => {
+  const [tilt, setTilt] = React.useState(0);
+  const [loading, setLoading] = React.useState(true);
 
-  componentDidMount() {
+  React.useEffect(() => {
     StatusBar.setHidden(true);
-    this._tilt = Accelerometer.addListener((item) => {
-      this.setState({ tilt: Math.round(item.y * 50) / 50 });
-    });
-  }
+    const _tilt = Accelerometer.addListener(({ y }) => setTilt(Math.round(y * 50) / 50));
 
-  componentWillUnmount() {
-    this._tilt.remove();
-  }
+    return () => _tilt.remove();
+  }, []);
 
-  render() {
-    const { tilt } = this.state;
-    return (
+  return loading
+    ? (
+      <AppLoading
+        startAsync={() => Asset.loadAsync([require('./assets/road.gif'), require('./assets/car.png')])}
+        onFinish={() => setLoading(false)}
+      />
+    )
+    : (
       <View style={styles.container}>
         <Image source={require('./assets/road.gif')} style={styles.road} />
         <Image source={require('./assets/car.png')} style={[styles.car, { left: width * (0.48 + tilt) }]} />
       </View>
     );
-  }
-}
+};
 
 const styles = StyleSheet.create({
   container: {
