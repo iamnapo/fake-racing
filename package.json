@@ -19,26 +19,27 @@
     "android": "expo start --android",
     "eject": "expo eject",
     "ios": "expo start --ios",
+    "lint": "eslint .",
     "start": "expo start",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^34.0.4",
-    "expo-asset": "^6.0.0",
-    "expo-sensors": "^6.0.0",
+    "expo": "^35.0.0",
+    "expo-asset": "^7.0.0",
+    "expo-sensors": "^7.0.0",
     "react": "16.8.3",
     "react-dom": "^16.9.0",
-    "react-native": "github:expo/react-native#sdk-34.0.1",
-    "react-native-web": "^0.11.5"
+    "react-native": "github:expo/react-native#sdk-35.0.0",
+    "react-native-web": "^0.11.7"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "babel-preset-expo": "^5.2.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-iamnapo": "^1.1.0",
+    "babel-preset-expo": "^7.0.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-iamnapo": "^1.3.3",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1"
   }
 }
