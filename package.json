@@ -1,45 +1,45 @@
 {
-  "name": "fake-racing",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Simple tilt-to-steer game inspired by RealRacing",
-  "homepage": "https://github.com/iamnapo/fake-racing#readme",
-  "bugs": {
-    "url": "https://github.com/iamnapo/fake-racing/issues"
-  },
-  "repository": "github:iamnapo/fake-racing",
-  "license": "MIT",
-  "author": {
-    "name": "Napoleon Oikonomou",
-    "email": "Napoleonoikon@gmail.com",
-    "url": "https://iamnapo.me"
-  },
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "android": "expo start --android",
-    "eject": "expo eject",
-    "ios": "expo start --ios",
-    "lint": "eslint .",
-    "start": "expo start",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "^35.0.0",
-    "expo-asset": "^7.0.0",
-    "expo-sensors": "^7.0.0",
-    "react": "16.8.3",
-    "react-dom": "^16.9.0",
-    "react-native": "github:expo/react-native#sdk-35.0.0",
-    "react-native-web": "^0.11.7"
-  },
-  "devDependencies": {
-    "babel-preset-expo": "^7.0.0",
-    "eslint": "^6.4.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-iamnapo": "^1.3.3",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1"
-  }
+	"name": "fake-racing",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Simple tilt-to-steer game inspired by RealRacing",
+	"homepage": "https://github.com/iamnapo/fake-racing#readme",
+	"bugs": {
+		"url": "https://github.com/iamnapo/fake-racing/issues"
+	},
+	"repository": "github:iamnapo/fake-racing",
+	"license": "MIT",
+	"author": {
+		"name": "Napoleon Oikonomou",
+		"email": "Napoleonoikon@gmail.com",
+		"url": "https://iamnapo.me"
+	},
+	"main": "node_modules/expo/AppEntry.js",
+	"scripts": {
+		"android": "expo start --android",
+		"eject": "expo eject",
+		"ios": "expo start --ios",
+		"lint": "eslint .",
+		"start": "expo start",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"expo": "^36.0.2",
+		"expo-asset": "~8.0.0",
+		"expo-sensors": "~8.0.0",
+		"react": "16.9.0",
+		"react-dom": "16.9.0",
+		"react-native": "github:expo/react-native#sdk-36.0.1",
+		"react-native-web": "^0.11.7"
+	},
+	"devDependencies": {
+		"babel-preset-expo": "^8.0.0",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-iamnapo": "^2.1.1",
+		"eslint-plugin-import": "^2.20.0",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.18.0",
+		"eslint-plugin-react-hooks": "^2.3.0"
+	}
 }

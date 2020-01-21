@@ -1,30 +1,31 @@
 {
-  "expo": {
-    "name": "fake-racing",
-    "slug": "fake-racing",
-    "privacy": "public",
-    "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "0.1.0",
-    "orientation": "landscape",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
-  }
+	"expo": {
+		"name": "fake-racing",
+		"slug": "fake-racing",
+		"privacy": "public",
+		"sdkVersion": "36.0.0",
+		"platforms": [
+			"ios",
+			"android",
+			"web"
+		],
+		"version": "0.1.0",
+		"orientation": "landscape",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true
+		},
+		"description": "Simple tilt-to-steer game inspired by RealRacing"
+	}
 }

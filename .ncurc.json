@@ -1,6 +1,7 @@
 {
-  "upgrade": true,
-  "reject": [
-    "react"
-  ]
+	"upgrade": true,
+	"reject": [
+		"react",
+		"react-dom"
+	]
 }

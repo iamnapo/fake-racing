@@ -1,6 +1,6 @@
 {
-  "extends": "iamnapo",
-  "rules": {
-    "react/display-name": "off"
-  }
+	"extends": "iamnapo",
+	"rules": {
+		"react/display-name": "off"
+	}
 }

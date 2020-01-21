@@ -1,6 +1,6 @@
 # fake-racing
 
->Simple tilt-to-steer game inspired by RealRacing
+> Simple tilt-to-steer game inspired by RealRacing
 
 [![license](https://img.shields.io/github/license/iamnapo/fake-racing.svg?style=for-the-badge)](./LICENSE)
 
@@ -10,9 +10,9 @@
 
 1. Run `npm i` to install the JS dependencies.
 2. Run `npm start` to run the app in development mode.
-  You can open it in the [Expo app](https://expo.io) on your phone.
-  It will reload as you save edits to your files.
-  You will see error messages and logs in your terminal window.
+   You can open it in the [Expo app](https://expo.io) on your phone.
+   It will reload as you save edits to your files.
+   You will see error messages and logs in your terminal window.
 
 ### Running the iOS app in the iOS simulator
 
