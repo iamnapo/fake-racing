@@ -14,32 +14,33 @@
 		"email": "Napoleonoikon@gmail.com",
 		"url": "https://iamnapo.me"
 	},
-	"main": "node_modules/expo/AppEntry.js",
 	"scripts": {
 		"android": "expo start --android",
 		"eject": "expo eject",
 		"ios": "expo start --ios",
 		"lint": "eslint .",
 		"start": "expo start",
+		"test": "yarn lint",
 		"web": "expo start --web"
 	},
 	"dependencies": {
-		"expo": "^36.0.2",
-		"expo-asset": "~8.0.0",
-		"expo-sensors": "~8.0.0",
+		"expo": "^37.0.3",
+		"expo-asset": "~8.1.4",
+		"expo-sensors": "~8.1.0",
 		"react": "16.9.0",
 		"react-dom": "16.9.0",
-		"react-native": "github:expo/react-native#sdk-36.0.1",
-		"react-native-web": "^0.11.7"
+		"react-native": "github:expo/react-native#sdk-37.0.0",
+		"react-native-web": "~0.11.7"
 	},
 	"devDependencies": {
-		"babel-preset-expo": "^8.0.0",
+		"babel-preset-expo": "^8.1.0",
 		"eslint": "^6.8.0",
-		"eslint-config-airbnb": "^18.0.1",
-		"eslint-config-iamnapo": "^2.1.1",
-		"eslint-plugin-import": "^2.20.0",
+		"eslint-config-airbnb": "^18.1.0",
+		"eslint-config-iamnapo": "^3.0.0",
+		"eslint-plugin-import": "^2.20.2",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
-		"eslint-plugin-react": "^7.18.0",
-		"eslint-plugin-react-hooks": "^2.3.0"
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^3.0.0",
+		"eslint-plugin-unicorn": "^18.0.1"
 	}
 }

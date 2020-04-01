@@ -2,6 +2,7 @@
 
 > Simple tilt-to-steer game inspired by RealRacing
 
+[![build](https://img.shields.io/github/workflow/status/iamnapo/fake-racing/Install%20%26%20test?style=for-the-badge&logo=github&label=)](https://github.com/iamnapo/fake-racing/actions)
 [![license](https://img.shields.io/github/license/iamnapo/fake-racing.svg?style=for-the-badge)](./LICENSE)
 
 <p align="center"><img src="./.github/usage.gif" width="90%"></p>

@@ -12,7 +12,8 @@ yarn.lock
 .LSOverride
 
 # Expo stuff
-.expo/
+.expo*
+web-build
 
 # Jest stuff
 .jest
