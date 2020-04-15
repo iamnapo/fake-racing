@@ -24,7 +24,7 @@
 		"web": "expo start --web"
 	},
 	"dependencies": {
-		"expo": "^37.0.3",
+		"expo": "^37.0.7",
 		"expo-asset": "~8.1.4",
 		"expo-sensors": "~8.1.0",
 		"react": "16.9.0",
