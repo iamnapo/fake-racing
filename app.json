@@ -25,6 +25,9 @@
 		"ios": {
 			"supportsTablet": true
 		},
-		"description": "Simple tilt-to-steer game inspired by RealRacing"
+		"description": "Simple tilt-to-steer game inspired by RealRacing",
+		"androidStatusBar": {
+			"hidden": true
+		}
 	}
 }

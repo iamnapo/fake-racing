@@ -24,7 +24,8 @@
 		"web": "expo start --web"
 	},
 	"dependencies": {
-		"expo": "^37.0.7",
+		"@use-expo/sensors": "^2.0.0",
+		"expo": "^37.0.8",
 		"expo-asset": "~8.1.4",
 		"expo-sensors": "~8.1.0",
 		"react": "16.9.0",
@@ -36,11 +37,11 @@
 		"babel-preset-expo": "^8.1.0",
 		"eslint": "^6.8.0",
 		"eslint-config-airbnb": "^18.1.0",
-		"eslint-config-iamnapo": "^3.0.0",
+		"eslint-config-iamnapo": "^3.1.0",
 		"eslint-plugin-import": "^2.20.2",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
 		"eslint-plugin-react": "^7.19.0",
-		"eslint-plugin-react-hooks": "^3.0.0",
-		"eslint-plugin-unicorn": "^18.0.1"
+		"eslint-plugin-react-hooks": "^4.0.0",
+		"eslint-plugin-unicorn": "^19.0.1"
 	}
 }
